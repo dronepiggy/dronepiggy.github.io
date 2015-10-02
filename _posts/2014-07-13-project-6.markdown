@@ -4,7 +4,7 @@ subtitle: Aerial Videography
 layout: default
 modal-id: 6
 date: 2015-08-23
-img: roundicons.png
+vimeo-img-id: 524067862
 vimeo-id: 130617082
 thumbnail: roundicons-thumbnail.png
 project-date: August 2015
