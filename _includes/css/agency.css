@@ -331,7 +331,7 @@ section h3.section-subheading {
   overflow: hidden;
   max-width: 100%;
 }
-.embed-container iframe, .embed-container object, .embed-container embed {
+.vimeo-container iframe, .vimeo-container object, .vimeo-container embed {
   position: absolute;
   top: 0;
   left: 0;
