@@ -1,25 +1,22 @@
 url: https://dronepiggy.github.io
-baseurl: 
+baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Flying Piggy
+email: fly@dronepiggy.com
+description: "Aerial photography and videography."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 333
+  primary: 35C6F1
+  secondary: FFDFEF
+  secondary-dark: 10174A
 
 # Team names, titles and social links
 people:
 - name: Mikka Pineda
   pic: 1
   position: Co-Founder
-  social:
-    - title: website
-      url: http://purplesquirreldesigns.com/
 
 - name: Zak Crawford
   pic: 2
