@@ -1,5 +1,5 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://dronepiggy.github.io
+baseurl: /
 
 # Site settings
 title: Awesome Title
@@ -9,61 +9,32 @@ description: "Write an awesome description for your new site here. You can edit 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503  
+  secondary: fec503
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Mikka Pineda
   pic: 1
-  position: Lead Designer
+  position: Co-Founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: website
+      url: http://purplesquirreldesigns.com/
 
-- name: Larry Parker
+- name: Zak Crawford
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: Co-Founder
 
-- name: Diana Petersen
+- name: Baluntut Pillow
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: Moral Support
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: San Francisco Bay Area, CA
 
 # Build settings
 markdown: kramdown
