@@ -781,6 +781,10 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+.portfolio-modal .vimeo-container {
+    width: 100%;
+}
+
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
@@ -802,7 +806,7 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content iframe {
     margin-bottom: 30px;
 }
 
