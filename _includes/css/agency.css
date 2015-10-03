@@ -111,18 +111,18 @@ background-color: #{{ site.color.primary }};
 }
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  color: #{{ site.color.primary }};
+  color: #fff;
 
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-  color: #{{ site.color.secondary }};
+  color: #fff;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, .02);
 }
 .navbar-default .navbar-toggle {
-  border-color: #{{ site.color.primary }};
-  background-color: #{{ site.color.primary }};
+  border-color: #{{ site.color.secondary-dark }};
+  background-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
