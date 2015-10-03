@@ -399,7 +399,7 @@ section h3.section-subheading {
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: #f1f1f1;
+  background-color: #{{ site.color.primary }};
 }
 .timeline>li .timeline-image h4 {
   margin-top: 12px;
