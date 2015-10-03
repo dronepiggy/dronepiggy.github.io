@@ -124,8 +124,8 @@ background-color: #{{ site.color.primary }};
   border-color: rgba(255, 255, 255, .02);
 }
 .navbar-default .navbar-toggle {
-  border-color: #{{ site.color.primary }};
-  background-color: #fff;
+  border-color: #fff;
+  background-color: #{{ site.color.primary }};
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -151,7 +151,7 @@ background-color: #{{ site.color.primary }};
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default {
   color: #fff;
-  background-color: #{{ site.color.secondary }};
+  background-color: #fff;
 }
 @media(min-width:768px) {
   .navbar-default {
