@@ -56,7 +56,7 @@ text-transform: uppercase;
 font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 700;
 color: #fff;
-background-color: #{{ site.color.primary }};
+background-color: #{{ site.color.secondary-dark }};
 
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -180,13 +180,15 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/header-bg.png);
   background-position: center center;
+  background-color: #{{ site.color.primary }};
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-position: top;
 }
 header .intro-text {
   padding-top: 100px;
