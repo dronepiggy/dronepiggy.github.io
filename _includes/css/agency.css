@@ -92,7 +92,7 @@ color: #fff;
 background-color: #{{ site.color.primary }};
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
-  border-color: #{{ site.color.primary }};
+  border-color: #{{ site.color.secondary }};
 color: #fff;
 background-color: #{{ site.color.secondary }};
 }
