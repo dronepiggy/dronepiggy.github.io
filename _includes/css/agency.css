@@ -56,11 +56,14 @@ text-transform: uppercase;
 font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 700;
 color: #fff;
-background-color: #{{ site.color.secondary-dark }};
+background-color: #{{ site.color.secondary }};
 
 }
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #{{ site.color.primary }};
+}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-  border-color: #{{ site.color.primary }};
+  border-color: #fff;
 color: #fff;
 background-color: #{{ site.color.secondary }}
 ;
@@ -111,17 +114,17 @@ background-color: #{{ site.color.primary }};
 }
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  color: #fff;
+  color: #{{ site.color.secondary-dark }};
 
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
-  color: #fff;
+  color: #{{ site.color.secondary-dark }};
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, .02);
 }
 .navbar-default .navbar-toggle {
-  border-color: #{{ site.color.secondary-dark }};
+  border-color: #{{ site.color.primary }};
   background-color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -135,7 +138,7 @@ background-color: #{{ site.color.primary }};
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #fff;
+  color: #{{ site.color.secondary-dark }};
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
   outline: 0;
@@ -146,7 +149,7 @@ background-color: #{{ site.color.primary }};
   color: #fff;
   background-color: #{{ site.color.primary }};
 }
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default {
   color: #fff;
   background-color: #{{ site.color.secondary }};
 }
@@ -170,7 +173,8 @@ background-color: #{{ site.color.primary }};
   }
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #222;
+    background-color: #fff;
+    border-bottom: 1px solid #DDD;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -190,7 +194,11 @@ header {
   -o-background-size: cover;
   background-position: top;
 }
+.intro-button {
+  background-color: #{{ site.color.secondary }};
+}
 header .intro-text {
+  color: #{{ site.color.secondary-dark }};
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -312,7 +320,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
   margin: 0 auto;
   padding: 25px;
-  max-width: 640px;
+  width: 100%;
   text-align: center;
   background-color: #fff;
 }

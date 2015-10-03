@@ -10,7 +10,9 @@
             <div class="row">
             {% for post in site.posts %}
                 <div class="col-lg-12 portfolio-item">
-                    <div class='vimeo-container'><iframe src='https://player.vimeo.com/video/{{ post.vimeo-id }}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class='vimeo-container'>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/{{ post.youtube-id }}?rel=0&amp;&amp;showinfo=0&amp;vq=hd1080&amp;rel=0&amp;theme=light&amp;color=white&amp;autohide=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
