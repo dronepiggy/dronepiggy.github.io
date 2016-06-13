@@ -1,6 +1,6 @@
 ---
-title: Aerial Video Editing
-subtitle: Aerial Video Editing
+title: Construction Tour Video
+subtitle: Aerial Videography & Video Editing
 layout: default
 modal-id: 6
 date: 2016-04-02
