@@ -1,0 +1,14 @@
+---
+title: Aerial Video Editing
+subtitle: Aerial Video Editing
+layout: default
+modal-id: 6
+date: 2016-04-02
+youtube-id: xp2MwHgGMy8
+thumbnail: roundicons-thumbnail.png
+project-date: March 2016
+client: Kilroy Realty
+category: Aerial Videography
+description: Aerial tour of San Francisco construction site
+
+---
