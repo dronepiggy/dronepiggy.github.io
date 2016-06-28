@@ -194,6 +194,10 @@ header {
   -o-background-size: cover;
   background-position: top;
 }
+header.video-header {
+  background-image: none;
+  background-color: rgba(255,255,255, .25);
+}
 .intro-button {
   background-color: #{{ site.color.secondary }};
 }
@@ -258,6 +262,9 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+}
+#services {
+  background-color: rgba(255,255,255, 1);
 }
 .service-heading {
   margin: 15px 0;
@@ -580,6 +587,7 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
+  background-color: #FFF;
   padding: 25px 0;
   text-align: center;
 }

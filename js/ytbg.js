@@ -10,8 +10,8 @@
 
 
 $(document).ready(function () {
-	var div = "<div id='front-background' style='position:fixed;width:100%;height:100%;z-index:-1;'></div><div id='yt-background' style='position:fixed; width:100%; height:100%; z-index:-2;'><div id='ytplayer' style='position: absolute;'</div>";
-	$("body").prepend(div);
+	var div = "<div id='front-background' style='position:relative;width:100%;height:100%;z-index:-1;'></div><div id='yt-background' style='position:fixed; width:100%; height:100%; z-index:-2;'><div id='ytplayer' style='position: absolute;'</div>";
+	$(".video-header").prepend(div);
 });
 
 
@@ -77,8 +77,8 @@ $(document).ready(function () {
 setInterval(function(){
 
 	// Get viewport informations
-	var height = $( window ).height();
-	var width = $( window ).width();
+	var height = $( '.video-header' ).height();
+	var width = $( '.video-header' ).width();
 
 	// Calculate height and width considering 16/9 ratio
 	var calcH = height * (16 / 9);
@@ -93,11 +93,13 @@ setInterval(function(){
 		$("#ytplayer").css("width", calcH);
 		$("#ytplayer").css("height", height);
 		$("#ytplayer").css("left", left);
+		$("#ytplayer").css("top","0px");
 	}
 
 	else {
 		$("#ytplayer").css("width", width);
 		$("#ytplayer").css("height", calcW);
+		$("#ytplayer").css("left", "0px");
 		$("#ytplayer").css("top",top);
 	}
 
