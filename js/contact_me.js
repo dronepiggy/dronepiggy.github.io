@@ -39,6 +39,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+                    ga('send', 'event', 'contact', 'submit_contact', 'success');
                 }
             })
         },
