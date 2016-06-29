@@ -27,19 +27,33 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                complete: function() {
+                success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Thanks for getting in touch! We will review your project and get back to you with a quote within 24 hours.</strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                    ga('send', 'event', 'contact', 'submit_contact', 'success');
+                    ga('send', 'event', 'contact', 'submit', 'success');
+                },
+                error: function() {
+                    // Success message
+                    $('#success').html("<div class='alert alert-danger'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success > .alert-danger')
+                        .append("<strong>Please complete the required fields so we can get back to you with a quote.</strong>");
+                    $('#success > .alert-danger')
+                        .append('</div>');
+
+                    //clear all fields
+                    $('#contactForm').trigger("reset");
+                    ga('send', 'event', 'contact', 'submit', 'failure');
                 }
             })
         },
