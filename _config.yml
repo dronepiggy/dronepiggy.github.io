@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: Flying Piggy - Aerial Production
 email: fly@dronepiggy.com
-description: "Aerial drone photography and videography production company. San Francisco Bay Area drone cinematography, videography, photogrammetry, mapping, construction, real-estate marketing, weddings. Pricing and quotes available for drone video and drone photo services."
+description: "Aerial drone photography and videography production company based in the San Francisco Bay Area. Aerial cinematography, photography, videography, mapping, construction, real-estate, weddings and more! Competitive pricing and quotes available for our aerial drone video production and post-production services."
 
 
 # SEO
@@ -12,7 +12,7 @@ facebook:
   publisher: http://facebook.com/dronepiggy
 twitter:
   username: dronepiggy
-logo: img/logo.png
+logo: /img/logo.png
 google_site_verification: google8bc5aec39202e854
 
 # Color settings (hex-codes without the leading hash-tag)
