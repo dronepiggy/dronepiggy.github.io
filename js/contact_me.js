@@ -47,7 +47,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-danger')
-                        .append("<strong>Please complete the required fields so we can get back to you with a quote.</strong>");
+                        .append("<strong>Please complete the required fields and make sure your email is correct so we can get back to you with a quote.</strong>");
                     $('#success > .alert-danger')
                         .append('</div>');
 
