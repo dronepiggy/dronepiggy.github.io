@@ -20,6 +20,7 @@ $(function() {
             $.ajax({
                 url: "http://cors.io?u=http://formspree.io/fly@dronepiggy.com",
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
