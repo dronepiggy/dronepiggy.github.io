@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://cors.io?u=http://formspree.io/fly@dronepiggy.com",
+                url: "//formspree.io/fly@dronepiggy.com",
                 type: "POST",
                 dataType: "json",
                 data: {
