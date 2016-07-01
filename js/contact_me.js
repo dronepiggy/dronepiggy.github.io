@@ -39,7 +39,7 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('.contactForm').trigger("reset");
                     ga('send', 'event', 'contact', 'submit', 'success');
                 },
                 error: function() {
@@ -53,7 +53,7 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('.contactForm').trigger("reset");
                     ga('send', 'event', 'contact', 'submit', 'failure');
                 }
             })
