@@ -19,6 +19,7 @@ image:
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 35C6F1
+  primary-light: baedfc
   secondary: FF99CC
   secondary-dark: 10174A
 
@@ -50,5 +51,5 @@ address:
 markdown: kramdown
 permalink: pretty
 
-gems:
+plugins:
   - jekyll-seo-tag
