@@ -1,0 +1,14 @@
+---
+title: Wedding Reel
+subtitle: Aerial Videography & Video Editing
+layout: default
+modal-id: 6
+date: 2016-04-02
+youtube-id: MM7VL6jyN7o
+thumbnail: roundicons-thumbnail.png
+project-date: May 2016
+client: Anonymous
+category: Aerial Videography
+description: Aerial video for wedding.
+
+---

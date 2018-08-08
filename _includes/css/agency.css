@@ -6,13 +6,18 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #{{ site.color.secondary-dark }}
 ;
 
 }
 .text-muted {
   color: #777;
+}
+span.text-muted {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 15px;
 }
 .text-primary {
   color: #{{ site.color.primary }};
@@ -55,31 +60,34 @@ h1, h2, h3, h4, h5, h6 {
 text-transform: uppercase;
 font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 700;
-color: #fff;
-background-color: #{{ site.color.secondary }};
-
+color: #FFF;
+background-color: #{{ site.color.secondary }} ;
 }
+
 .navbar-default .navbar-nav>.active>a:focus {
     background-color: #{{ site.color.primary }};
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   border-color: #fff;
-color: #fff;
-background-color: #{{ site.color.secondary }}
-;
-
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
 }
+
+.packages-row {
+  margin-top: 25px;
+}
+
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   background-image: none;
 }
 .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
   border-color: #{{ site.color.primary }};
-background-color: #{{ site.color.primary }};
+  background-color: #{{ site.color.primary }};
 }
 .btn-primary .badge {
-  color: #{{ site.color.primary }};
-background-color: #fff;
+  color: #{{ site.color.primary }} ;
 }
+
 .btn-xl {
   padding: 20px 40px;
   border-color: #{{ site.color.primary }};
@@ -113,7 +121,7 @@ background-color: #{{ site.color.primary }};
   background-color: #222;
 }
 .navbar-default .navbar-brand {
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #{{ site.color.secondary-dark }};
 
 }
@@ -251,7 +259,7 @@ section h1.section-heading {
   font-size: 40px;
 }
 section h3.section-subheading {
-  margin-bottom: 75px;
+  margin-bottom: 25px;
   text-transform: none;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -263,11 +271,20 @@ section h3.section-subheading {
     padding: 50px 0;
   }
 }
+
+section.about {
+  background-color: #35C6F1;
+}
+section.about .text-muted {
+  color: #FFFFFF;
+}
+
 .services {
   background-color: rgba(255,255,255, 1);
 }
 .service-heading {
-  margin: 15px 0;
+  margin-top:50px;
+  margin-bottom: 25px;
   text-transform: none;
 }
 .portfolio {
@@ -538,7 +555,6 @@ aside.clients img {
 }
 section.contact {
   background-color: #222;
-  background-image: url(/img/map-image.png);
   background-position: center;
   background-repeat: no-repeat;
 }
